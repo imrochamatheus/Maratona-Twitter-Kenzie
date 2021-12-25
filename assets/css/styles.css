@@ -51,15 +51,39 @@ body {
 
 .conteudoPrincipal {
     flex-basis: 70%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
 }
 
-.conteudoPrincipal__titulo {}
+.conteudoPrincipal__titulo {
+    padding: 10px 30px;
+}
 
-.conteudoPrincipal__formulario {}
+.conteudoPrincipal__formulario {
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
 
-.conteudoPrincipal__formulario textarea {}
+.conteudoPrincipal__formulario textarea {
+    display: block;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 55px;
+    width: 100%;
+}
 
-.conteudoPrincipal__formulario button {}
+.conteudoPrincipal__formulario button {
+   
+    background-color: #1da1f2;
+    opacity: 0.4;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
 
 .conteudoPrincipal__feed {}
 
