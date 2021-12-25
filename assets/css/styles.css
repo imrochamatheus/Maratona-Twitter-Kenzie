@@ -2,16 +2,27 @@ body {
 
 }
 
-.cabecalho {
+.container {
+    width: 100%;
+    display:flex;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
+.cabecalho {
+    flex-basis: 30%;
 }
 
 .cabecalho__logo {
+    margin-bottom: 50px;
+}
 
+.cabecalho figcaption {
+    display: none;
 }
 
 .cabecalho__logo img {
-
+    width: 26px;
 }
 
 .cabecalho__menuNavegacao {
@@ -23,18 +34,24 @@ body {
 }
 
 .cabecalho__menuItem {
-
+    margin-bottom: 25px;
+    
 }
 
 .cabecalho__menuItem img {
-
+    max-width: 26px;
 }
 
 .cabecalho__menuItem a {
-
+    color: #000;
+    font-size: 20px;
+    vertical-align: top;
+    text-decoration: none;
 }
 
-.conteudoPrincipal {}
+.conteudoPrincipal {
+    flex-basis: 70%;
+}
 
 .conteudoPrincipal__titulo {}
 

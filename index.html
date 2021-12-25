@@ -4,99 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Ken-Te-Vi</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <figure class="cabecalho__logo">
-            <img src="./assets/img/bird 1.svg" alt="Ken-Te-Vi logo">
-            <figcaption hidden>Logo Ken-Te-Vi</figcaption>
-        </figure>
-        <nav class="cabecalho__menuNavegacao">    
-            <ul class="cabecalho__menuLista">
-                <li class="cabecalho__menuItem">
-                    <img src="./assets/img/Home.png" alt="">
-                    <a href="#">Página Inicial</a>
-                </li>
-                <li class="cabecalho__menuItem">
-                    <img src="./assets/img/Hashtag.png" alt="">
-                    <a href="#">Explorar</a>
-                </li>
-                <li class="cabecalho__menuItem">
-
-                    <img src="./assets/img/Notification.png" alt="">
-                    <a href="#">Notificações</a>
-                </li>
-                <li class="cabecalho__menuItem">
-                    <img src="./assets/img/Group.png" alt="">
-                    <a href="#">Mensagens</a>
-                </li>
-                <li class="cabecalho__menuItem">
-                    <img src="./assets/img/Group (1).png" alt="">
-                    <a href="#">Itens salvos</a>
-                </li>
-                <li class="cabecalho__menuItem">
-                    <img src="./assets/img/Group (2).png" alt="">
-                    <a href="#">Listas</a>
-                </li>
-                <li class="cabecalho__menuItem">
-                    <img src="./assets/img/ProfilePic.png" alt="">
-                    <a href="#">Perfil</a>
-                </li>
-                <li class="cabecalho__menuItem">
-                    <img src="./assets/img/Group (3).png" alt="">
-                    <a href="#">Mais</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main class="conteudoPrincipal">
-        <h3 class="conteudoPrincipal__titulo">Home</h3>
-        <form action="#" class="conteudoPrincipal__formulario">
-            <textarea name="tweetText" id="tweetText" placeholder="O que está acontecendo?"></textarea>
-            <button type="submit"></button>
-        </form>
-
-        <section class="conteudoPrincipal_feed">
-            <ul class="conteudoPrincipal__listaTweets">
-                <li class="conteudoPrincipal__tweet">
-                   <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic.png" alt="">
-                   <div class="tweet__conteudo">
-                        <h2>Daniel</h2>
-                        <span>@danielkenzie 14s</span>
-                        <p>
-                            MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que,
-                            até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia.
-                            É hora de se preparar... #VouSerDev #DoZeroAoCodigo
-                        </p>
-                   </div>
-                </li>
-                <li class="conteudoPrincipal__tweet">
-                    <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (1).png" alt="">
-                    <div class="tweet__conteudo">
-                         <h2>Maria Porcina</h2>
-                         <span>@mariap.na 14s</span>
-                         <p>
-                             Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer.
-                            Ele pode ter algumas hashtags também. #likethis
-                         </p>
-                    </div>
-                 </li>
-                 <li class="conteudoPrincipal__tweet">
-                    <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (2).png" alt="">
-                    <div class="tweet__conteudo">
-                         <h2>Hudson Carolino</h2>
-                         <span>@hudsoncarolino 14s</span>
-                         <p>
-                            98% de #empregabilidade? Só na Kenzie... Pois é, 98% dos alunos formados
-                            estão trabalhando na área menos de 1 mês após a graduação #ninguemmesegura 🤯
-                         </p>
-                    </div>
-                 </li>
-                 
-            </ul>
-        </section>
-    </main>
+    <div class="container">
+        <header class="cabecalho">
+            <figure class="cabecalho__logo">
+                <img src="./assets/img/bird 1.svg" alt="Ken-Te-Vi logo">
+                <figcaption hidden>Logo Ken-Te-Vi</figcaption>
+            </figure>
+            <nav class="cabecalho__menuNavegacao">    
+                <ul class="cabecalho__menuLista">
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Home.png" alt="">
+                        <a href="#">Página Inicial</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Hashtag.png" alt="">
+                        <a href="#">Explorar</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+    
+                        <img src="./assets/img/Notification.png" alt="">
+                        <a href="#">Notificações</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Group.png" alt="">
+                        <a href="#">Mensagens</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Group (1).png" alt="">
+                        <a href="#">Itens salvos</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Group (2).png" alt="">
+                        <a href="#">Listas</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/ProfilePic.png" alt="">
+                        <a href="#">Perfil</a>
+                    </li>
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/Group (3).png" alt="">
+                        <a href="#">Mais</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="conteudoPrincipal">
+            <h3 class="conteudoPrincipal__titulo">Home</h3>
+            <form action="#" class="conteudoPrincipal__formulario">
+                <textarea name="tweetText" id="tweetText" placeholder="O que está acontecendo?"></textarea>
+                <button type="submit"></button>
+            </form>
+    
+            <section class="conteudoPrincipal_feed">
+                <ul class="conteudoPrincipal__listaTweets">
+                    <li class="conteudoPrincipal__tweet">
+                       <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic.png" alt="">
+                       <div class="tweet__conteudo">
+                            <h2>Daniel</h2>
+                            <span>@danielkenzie 14s</span>
+                            <p>
+                                MAIS DE 1 MILHÃO DE VAGAS! Artigo da McKinsey aponta que,
+                                até 2030, o Brasil terá um gargalo de 1 mi profissionais de tecnologia.
+                                É hora de se preparar... #VouSerDev #DoZeroAoCodigo
+                            </p>
+                       </div>
+                    </li>
+                    <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (1).png" alt="">
+                        <div class="tweet__conteudo">
+                             <h2>Maria Porcina</h2>
+                             <span>@mariap.na 14s</span>
+                             <p>
+                                 Este é um tweet. Pode ser longo ou curto. Depende do que você tem a dizer.
+                                Ele pode ter algumas hashtags também. #likethis
+                             </p>
+                        </div>
+                     </li>
+                     <li class="conteudoPrincipal__tweet">
+                        <img class="tweet__fotoPerfil" src="./assets/img/ProfilePic (2).png" alt="">
+                        <div class="tweet__conteudo">
+                             <h2>Hudson Carolino</h2>
+                             <span>@hudsoncarolino 14s</span>
+                             <p>
+                                98% de #empregabilidade? Só na Kenzie... Pois é, 98% dos alunos formados
+                                estão trabalhando na área menos de 1 mês após a graduação #ninguemmesegura 🤯
+                             </p>
+                        </div>
+                     </li>
+                     
+                </ul>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
