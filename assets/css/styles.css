@@ -1,12 +1,14 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body {
+    font-family: 'Roboto';
 }
 
 .container {
     width: 100%;
     display:flex;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 900px;
 }
 
 .cabecalho {
@@ -85,19 +87,36 @@ body {
     border-radius: 20px;
 }
 
-.conteudoPrincipal__feed {}
+.conteudoPrincipal__feed {
+
+}
 
 .conteudoPrincipal__listaTweets {}
 
-.conteudoPrincipal__tweet {}
+.conteudoPrincipal__tweet {
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+}
 
-.teet__fotoPerfil {}
+.tweet__fotoPerfil {
+    margin-right: 15px;
+}
 
-.teet__conteudo {}
+.teet__conteudo {
+    margin-left: 15px;
+}
 
-.tweet__conteudo h2 {}
+.tweet__conteudo h2 {
+    display: inline-block;
+}
 
-.tweet__conteudo span {}
+.tweet__conteudo span {
+    color: #828282;
+}
 
-.tweet__conteudo p {}
+.tweet__conteudo p {
+    margin-top: 15px;
+    color:  #333333;
+}
 
