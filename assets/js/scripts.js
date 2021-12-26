@@ -59,7 +59,7 @@ function listarTemplateTweet (tweet) {
     img.classList.add('tweet__fotoPerfil')
     div.classList.add('tweet__conteudo')
  
-
+    textarea.value = ''
 
     feed.appendChild(li)
 }
