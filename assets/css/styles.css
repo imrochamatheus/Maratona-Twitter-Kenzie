@@ -79,7 +79,6 @@
 }
 
 .conteudoPrincipal {
-    flex-basis: 50%;
     border-left: 1px solid #e7ecf0;
     border-right: 1px solid #e7ecf0;
 }
@@ -151,4 +150,60 @@
     margin-top: 15px;
     color:  #333333;
 }
+
+
+@media  screen and (max-width: 576px) {
+
+    .container {
+        display:block;
+        min-width: 290px;
+    }
+
+    .cabecalho__logo {
+        display: none;
+    }
+
+    .cabecalho__menuLista {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .cabecalho__menuItem {
+        padding: 0;
+    }
+
+    .cabecalho__menuItem:nth-child(n + 7) {
+       display: none;
+    }
+ 
+    .conteudoPrincipal__formulario textarea {
+       font-size: 18px;
+    }
+
+    .conteudoPrincipal__tweet {
+        font-size: 14px;
+    }
+
+    .tweet__fotoPerfil {
+        margin: 0;
+    }
+}
+
+@media screen and  (max-width: 992px) {
+
+    .cabecalho {
+        flex-basis: auto;
+    }
+
+    .cabecalho__menuItem span, .cabecalho__menuItem input[type = button] {
+        display: none;
+    }
+
+    .cabecalho__menuItem img {
+        margin: 0;
+    }
+}
+
+
+
 
