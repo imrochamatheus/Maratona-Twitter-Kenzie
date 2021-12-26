@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    font-family: 'Roboto';
+* {
+    font-family: 'Roboto' !important;
 }
 
 .container {
     width: 100%;
     display:flex;
     margin: 0 auto;
-    max-width: 900px;
 }
 
 .cabecalho {
-    flex-basis: 30%;
+    padding: 20px;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    box-sizing: border-box;
 }
 
 .cabecalho__logo {
     margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 .cabecalho figcaption {
@@ -27,38 +31,50 @@ body {
     width: 26px;
 }
 
-.cabecalho__menuNavegacao {
-
-}
 
 .cabecalho__menuLista {
-
+    margin: 0 auto;
 }
 
 .cabecalho__menuItem {
-    margin-bottom: 25px;
-    
+    display: flex;
+    padding: 20px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cabecalho__menuItem:first-child {
+    font-weight: bolder;
+}
+
+.cabecalho__menuItem:hover {
+    background-color: #e7ecf0;
 }
 
 .cabecalho__menuItem img {
-    max-width: 26px;
+  max-width: 26px;
+  margin-right: 20px;
 }
 
 .cabecalho__menuItem a {
     color: #000;
-    font-size: 20px;
-    vertical-align: top;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
     text-decoration: none;
 }
 
 .conteudoPrincipal {
-    flex-basis: 70%;
+    flex-basis: 50%;
     border-left: 1px solid #e7ecf0;
     border-right: 1px solid #e7ecf0;
 }
 
 .conteudoPrincipal__titulo {
     padding: 10px 30px;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .conteudoPrincipal__formulario {
@@ -75,6 +91,7 @@ body {
     resize: none;
     height: 55px;
     width: 100%;
+    font-size: 24px;
 }
 
 .conteudoPrincipal__formulario button {
