@@ -85,6 +85,11 @@ body {
     border-radius: 20px;
 }
 
+.conteudoPrincipal__listaTweets {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
 .conteudoPrincipal__tweet {
     padding: 20px 32px;
     display: flex;
@@ -95,7 +100,7 @@ body {
     margin-right: 15px;
 }
 
-.teet__conteudo {
+.tweet__conteudo {
     margin-left: 15px;
 }
 
